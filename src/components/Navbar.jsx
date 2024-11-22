@@ -22,7 +22,7 @@ const Navbar = () => {
     
     <div className='py-5 flex items-center justify-between font-medium'>
 
-      <Link to='/'>
+      <Link to='/clothique'>
 
         <div className='flex items-center'>
 
@@ -36,7 +36,7 @@ const Navbar = () => {
 
       <ul className='text-xs md:text-sm text-gray-700 hidden sm:flex gap-5'>
 
-        <NavLink to='/' className='flex flex-col items-center gap-1'>
+        <NavLink to='/clothique' className='flex flex-col items-center gap-1'>
 
           <p className='capitalize'>HOME</p>
           <hr className='w-2/4 h-[1.5px] bg-gray-700 hidden' />
